@@ -1,114 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>플렉스 연습용</title>
     <style>
-        /* 초기화 */
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        /* 배경 */
-        .background{
-            width: 80%;
-            background-color: antiquewhite;
-            padding-top: 120px;
-            padding-bottom: 40px;
-            border: 2px solid gray ;
-            border-radius: 15px;
+      /* 초기화 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* 배경 */
+      .background {
+        width: 80%;
+        background-color: antiquewhite;
+        padding: 20px 100px ; 
+        border: 2px solid gray;
+        border-radius: 15px;
+        margin: 50px auto;
+      }
 
-            margin: 50px auto ;
-            display: flex;
-            gap: 40px;
-            justify-content: center;
-        }
-        /* 팀 로고 */
-        .team{
-            text-align: center;
-            width: 80px;
-            font-size: 14px;
-        }
-        /* 이미지 */
-        .logo img{
-            width: 100%;
-        }
-
+      /* 버튼 */
+      nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(247, 247, 247);
+        border-radius: 40px;
+        padding: 10px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+      }
+      .content {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+      }
+      .subject{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      /* 팀 로고 */
+      .team {
+        text-align: center;
+        width: 80px;
+        font-size: 14px;
+      }
+      /* 이미지 */
+      .logo img {
+        width: 100%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- 배경 -->
     <div class="background">
-<div class="subject"> 
-
-</div>
+      <!-- 버튼 -->
+      <div class="subject">
+        <nav>
+          <a href="#" class="soccer"> 축구 </a>
+          <a href="#"> 야구 </a>
+          <a href="#"> E스포츠 </a>
+          <a href="#"> 스폐셜 </a>
+        </nav>
+      </div>
+      <div class="content">
         <!-- 팀 로고 -->
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/gangwon_fc.png" alt="강원FC">
-            </div>
-    <!-- 제목 -->
-    <p> 강원FC </p>
-    </div>
+            <img src="Sports/gangwon_fc.png" alt="강원FC" />
+          </div>
+          <!-- 제목 -->
+          <p>강원FC</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/bucheon_fc1995.png" alt="부천FC1995">
-            </div>
-    <!-- 제목 -->
-    <p> 부천FC1995 </p>
-    </div>
+            <img src="Sports/bucheon_fc1995.png" alt="부천FC1995" />
+          </div>
+          <!-- 제목 -->
+          <p>부천FC1995</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/suwon_fc.png" alt="수원FC">
-            </div>
-    <!-- 제목 -->
-    <p> 수원FC </p>
-    </div>
+            <img src="Sports/suwon_fc.png" alt="수원FC" />
+          </div>
+          <!-- 제목 -->
+          <p>수원FC</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/suwon_samsung.png" alt="수원삼성">
-            </div>
-    <!-- 제목 -->
-    <p> 수원삼성 </p>
-    </div>
+            <img src="Sports/suwon_samsung.png" alt="수원삼성" />
+          </div>
+          <!-- 제목 -->
+          <p>수원삼성</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/sungnam_fc.png" alt="성남FC">
-            </div>
-    <!-- 제목 -->
-    <p> 성남FC </p>
-    </div>
+            <img src="Sports/sungnam_fc.png" alt="성남FC" />
+          </div>
+          <!-- 제목 -->
+          <p>성남FC</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/junnam_dragons.png" alt="전남드래곤즈">
-            </div>
-    <!-- 제목 -->
-    <p> 전남드래곤즈 </p>
-    </div>
+            <img src="Sports/junnam_dragons.png" alt="전남드래곤즈" />
+          </div>
+          <!-- 제목 -->
+          <p>전남드래곤즈</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/busan_ipark.png" alt="부산아이파크">
-            </div>
-    <!-- 제목 -->
-    <p> 부산아이파크 </p>
-    </div>
+            <img src="Sports/busan_ipark.png" alt="부산아이파크" />
+          </div>
+          <!-- 제목 -->
+          <p>부산아이파크</p>
+        </div>
         <div class="team">
-            <div class="logo">
+          <div class="logo">
             <!-- 이미지 -->
-            <img src="Sports/chungnam_asan.png" alt="충남아산">
-            </div>
-    <!-- 제목 -->
-    <p> 충남아산 </p>
+            <img src="Sports/chungnam_asan.png" alt="충남아산" />
+          </div>
+          <!-- 제목 -->
+          <p>충남아산</p>
+        </div>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>
