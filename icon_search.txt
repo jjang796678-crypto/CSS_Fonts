@@ -1,0 +1,10 @@
+
+폰트 어썸 
+font awesome
+https://fontawesome.com/search?ic=free-collection
+
+html 파일에 연결할 때 
+A + cdn 을 사용하여 연결 
+
+폰트어썸cdn
+https://cdnjs.com/libraries/font-awesome
