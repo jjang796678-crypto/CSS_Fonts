@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 폰트 어썸 -->
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title> 네이버 로그인 박스 </title>
+<style> 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 로그인 박스 */
+.login-box{
+    padding: 21px 20px 18px;
+    width: 420px;
+    /* background-color: red; */
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) ;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 100px;
+}
+.login-box p{
+    font-size: 14px;
+    color: #2e2e2e;
+}
+/* 로그인 버튼 */
+.login-btn{
+    width: 100%;
+    padding: 17px 0 ;
+    border: none;
+    background-color: #03a94d;
+    border-radius: 4px;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* naver 글자 */
+.naver{
+    font-size: 24px;
+    font-weight: bold;
+}
+.login{
+    font-size: 14px;
+    padding-bottom: 10px;
+    /* line-height: 27.33px; */
+}
+.menu{
+    font-size: 13px;
+    color: #737373;
+}
+.fa-cart-shopping{
+    color: red;
+    font-size: 20px;
+}
+.fa-comment-dots{
+    color: #333;
+    font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+    <!-- 로그인 박스 -->
+    <div class="login-box"> 
+        <p> 네이버를 더 안전하고 편리하게 이용하세요 </p>
+        <!-- 로그인 버튼 -->
+        <button class="login-btn"> <span class="naver"> NAVER </span> <span class="login"> 로그인 </span> </button> 
+        <!-- MENU -->
+        <div class="menu"> 
+            <a href="#"> 아이디 찾기</a>
+            <a href="#"> 비밀번호 찾기</a>
+            <a href="#"> 회원가입</a>
+        </div>
+    </div>
+    <button id="cart"> 
+        <i class="fa-solid fa-cart-shopping"></i> 담기 
+    </button>
+    <button> 
+        <i class="fa-solid fa-comment-dots"></i> 리뷰
+    </button>
+</body>
+</html>
